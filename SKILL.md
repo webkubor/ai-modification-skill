@@ -1,7 +1,9 @@
 ---
 name: ai-modification
-description: "Transform any project into an AI-native workspace. It orchestrates documentation indexing (llms.txt) and automation protocol (WebMCP v2.0) experts."
-version: 2.0.0
+description: "AI Modification Expert - transforming traditional projects into AI-native workspaces. Automates documentation indexing (llms.txt), prompt engineering protocols, and WebMCP integration."
+version: 1.1.0
+allowed-tools: ["run_command", "write_to_file", "list_dir"]
+user-invocable: true
 ---
 
 # 🤖 AI Modification Expert
@@ -11,9 +13,11 @@ version: 2.0.0
 ## 📖 专家响应机制
 
 ### 1. 初始化核心
+
 - **必须** 始终加载基础协议：[references/modification-core.md](references/modification-core.md)
 
 ### 2. 按需召唤特种兵
+
 当老爹发起“AI 改造”指令时，根据具体需求精准激活专家大脑：
 
 - **进行文档索引/llms.txt 改造?** -> 激活 [references/llms-expert.md](references/llms-expert.md)
@@ -27,9 +31,11 @@ version: 2.0.0
 4. **验证闭环**: 协助老爹运行 `npm run dev` 等指令确认改造效果。
 
 ## ⚙️ 系统约束
+
 - 必须尊重项目原有的技术栈（React/Vue 等）。
 - 强制执行 `modification-core.md` 中的安全屏蔽原则。
 - 严禁在代码中留下任何工具性签名或 AI 自动注释。
 
 ## 🛠 历史遗留说明
+
 - **Sync**: `node scripts/sync.js` (仅在 llms.txt 模式下被调用)。
