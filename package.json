@@ -8,6 +8,8 @@
   "scripts": {
     "install-skill": "gemini skills install .",
     "package": "zip -r ai-modification.skill . -x '.*' '__MACOSX' '.git/*'",
+    "check-update": "node scripts/check.js",
+    "update": "git pull origin master && npm run install-skill",
     "sync-docs": "node scripts/sync.js"
   },
   "keywords": [
