@@ -1,0 +1,20 @@
+{
+  "name": "ai-modification-skill",
+  "version": "2.0.0",
+  "description": "Project-to-AI-native transformation expert. Manages llms.txt and WebMCP v2.0.",
+  "author": "webkubor",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "install-skill": "gemini skills install .",
+    "package": "zip -r ai-modification.skill . -x '.*' '__MACOSX' '.git/*'",
+    "sync-docs": "node scripts/sync.js"
+  },
+  "keywords": [
+    "gemini-cli",
+    "skill",
+    "llms-txt",
+    "webmcp",
+    "ai-native"
+  ]
+}
