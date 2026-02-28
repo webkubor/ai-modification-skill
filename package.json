@@ -1,16 +1,17 @@
 {
   "name": "ai-modification-skill",
-  "version": "1.2.0",
-  "description": "AI-Native Workspace Transformation Expert. Automates documentation indexing (llms.txt), prompt engineering protocols, and WebMCP integration.",
+  "version": "1.2.1",
+  "description": "AI-Native Workspace Transformation Protocol. Automates documentation indexing (llms.txt), prompt engineering standards, and Multi-Agent orchestration.",
   "type": "module",
   "author": "司南烛 (Si Nan Zhu)",
   "license": "MIT",
   "keywords": [
-    "ai-native",
-    "workspace-automation",
-    "prompt-engineering",
+    "ai-skill",
     "mcp",
-    "llms-txt"
+    "llms-txt",
+    "autonomous-agent",
+    "prompt-engineering",
+    "workspace-automation"
   ],
   "homepage": "https://github.com/webkubor/ai-modification-skill",
   "scripts": {
