@@ -17,6 +17,13 @@
 gemini skills install https://github.com/webkubor/gemini-skill-ai-native
 ```
 
+## 🔄 更新与维护
+本技能内置版本哨兵，支持一键巡检与升级：
+
+- **检查更新**: `npm run check-update` (对比 GitHub 最新版本)
+- **一键升级**: `npm run update` (自动拉取并重新安装)
+- **手动打包**: `npm run package` (生成新的 .skill 安装包)
+
 ## 📖 使用场景
 1. **llms.txt 改造**: 为项目生成 AI 友好的文档索引，提升 RAG 效率。
 2. **WebMCP 注入**: 为网页注入 `window.mcp` 接口，实现 AI 自动化控制。
