@@ -3,7 +3,7 @@
   "version": "1.2.1",
   "description": "AI-Native Workspace Transformation Protocol. Automates documentation indexing (llms.txt), prompt engineering standards, and Multi-Agent orchestration.",
   "type": "module",
-  "author": "司南烛 (Si Nan Zhu)",
+  "author": "webkubor",
   "license": "MIT",
   "keywords": [
     "ai-skill",
@@ -16,5 +16,16 @@
   "homepage": "https://github.com/webkubor/ai-modification-skill",
   "scripts": {
     "validate": "node scripts/validate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webkubor/ai-modification-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/webkubor/ai-modification-skill/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }

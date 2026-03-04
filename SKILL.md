@@ -2,7 +2,7 @@
 name: ai-modification-skill
 description: "AI-Native Workspace Transformation Protocol. Optimized for Gemini 2.x Context-Native Reasoning and Multi-Agent orchestration."
 version: 1.2.2
-author: "司南烛 (Si Nan Zhu)"
+author: "webkubor"
 license: "MIT"
 keywords: ["ai-skill", "mcp", "ai-native", "workspace-automation", "prompt-engineering", "llms-txt"]
 allowed-tools: ["run_command", "write_to_file", "list_dir"]
